@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AkhirActivity"
+    android:background="@color/hijau_bg"
+    tools:ignore="Autofill, ContentDescription, LabelFor">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="295dp"
+        android:layout_height="191dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:paddingTop="26dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/poppins"
+                android:text="@string/permintaan_anda_berhasl_diproses"
+                android:textAlignment="center"
+                android:textColor="@color/abuabu"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/konfirmasi"
+                android:layout_width="220dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/btn_green"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:stateListAnimator="@null"
+                android:text="@string/lanjut"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                app:backgroundTint="@null"/>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

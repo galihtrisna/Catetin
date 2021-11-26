@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stematel.catetin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="nosensor"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Catetin">
+        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".LihatActivity" />
+        <activity android:name=".AntarProdukActivity" />
+        <activity android:name=".AkhirActivity" />
+        <activity android:name=".HapusProduk2Activity" />
+        <activity android:name=".UbahProduk2Activity" />
+        <activity android:name=".UbahProdukActivity" />
+        <activity android:name=".HapusProdukActivity" />
+        <activity android:name=".PengeluaranActivity" />
+        <activity android:name=".PemasukanActivity" />
+        <activity android:name=".LupaPasswordActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
