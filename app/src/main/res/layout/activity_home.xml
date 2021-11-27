@@ -158,6 +158,7 @@
             android:id="@+id/tambah_produk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:background="@color/transparant"
             android:src="@drawable/tambah"/>
 
@@ -165,6 +166,7 @@
             android:id="@+id/hapus_produk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:layout_gravity="center_horizontal"
             android:background="@color/transparant"
             android:src="@drawable/hapus"/>
@@ -173,6 +175,7 @@
             android:id="@+id/ubah_produk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:background="@color/transparant"
             android:src="@drawable/ubah"/>
 
