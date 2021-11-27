@@ -47,4 +47,9 @@
     <string name="selamat_datang">Selamat Datang</string>
     <string name="namamu">namamu</string>
     <string name="daftar_pesanan">Daftar Pesanan</string>
+    <string name="yourname">\@yourname</string>
+    <string name="keluar">Keluar</string>
+    <string name="tambah_akun">Tambah Akun</string>
+    <string name="hapus_akun">Hapus Akun</string>
+    <string name="edit_akun">Edit Akun</string>
 </resources>
