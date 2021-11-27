@@ -44,4 +44,7 @@
     <string name="saldo">Saldo :</string>
     <string name="totalsaldo">Rp. 100.000</string>
     <string name="pilih_layanan">Pilih Layanan</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="namamu">namamu</string>
+    <string name="daftar_pesanan">Daftar Pesanan</string>
 </resources>

@@ -10,7 +10,9 @@
         android:screenOrientation="nosensor"
         android:supportsRtl="true"
         android:theme="@style/Theme.Catetin">
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".AkunActivity"></activity>
+        <activity android:name=".PesananActivity" />
+        <activity android:name=".HomeActivity" />
         <activity android:name=".LihatActivity" />
         <activity android:name=".AntarProdukActivity" />
         <activity android:name=".AkhirActivity" />
