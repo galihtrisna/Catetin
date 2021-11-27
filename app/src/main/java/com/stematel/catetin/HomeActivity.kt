@@ -19,7 +19,7 @@ class HomeActivity : AppCompatActivity() {
                 R.id.pesanan -> {
                     startActivity(
                         Intent(
-                            //applicationContext, PesananActivity::class.java
+                            applicationContext, PesananActivity::class.java
                         )
                     )
                     finish()
@@ -29,7 +29,7 @@ class HomeActivity : AppCompatActivity() {
                 R.id.akun -> {
                     startActivity(
                         Intent(
-                            //applicationContext, SettingsActivity::class.java
+                            applicationContext, AkunActivity::class.java
                         )
                     )
                     finish()
